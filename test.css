@@ -1,0 +1,666 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:arial;
+    flex-shrink: 3;
+
+}
+
+body{
+        background-color: #021223;
+        font-family: "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+html{
+    scroll-behavior: smooth;
+}
+.panel{
+    width: 100%;
+    display: flex;
+    color:white;
+    background:#1c86ee;
+    background: linear-gradient(0deg, rgba(16,19,20,1) 0%, rgb(19, 95, 133) 82%, rgb(28, 126, 179) 100%);
+    background-color:#3984cf;
+    border-radius: 5px;
+    justify-content: space-between;
+    
+}
+.mob{
+    display: flex;
+    margin-left: 15px;
+    padding: 5px;
+}
+.email{
+    display: flex;
+    margin-right: 15px;
+    padding: 5px;
+}
+.cdesc-container {
+    background-color: #083c6f;
+   color:WHITE;
+   text-shadow: black 1px;
+    border-width: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.clogo { 
+    width: 20%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    margin:30px 0 0 50px;
+    position: sticky;
+   top:0;
+   z-index:99;
+   
+   
+ }
+ .mcetlogo{
+  height:120px;
+   width:80px;
+   
+   
+ 
+ }
+ .logoo{
+     padding-right: 200px;
+     display: flex;
+     justify-content: right;
+     width: 10%;
+ }
+ .clgname {
+    width: 55%;
+    text-align: left;
+    font-weight: 500;
+    margin-top: -20px;
+}
+
+.cdesc h1 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-top:-15px ;
+    margin-bottom: 3px;
+}
+
+.cdesc h3 {
+    font-family: Roboto;
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin-bottom: 3px;
+    display: inline;
+    color: white;
+  
+} 
+.navbar-nav{
+    font-size: 0.9em; 
+    display: flex;
+    padding-left: 65px; 
+    color: white;
+    
+ }
+ 
+ .nav-item{
+    padding-right:20px;
+  
+    
+   
+ }
+ .nav-item li{
+    position: relative;
+   
+ }
+
+
+
+
+ .nav-item ul li a{
+  padding: 9px 15px 9px 7px;
+  text-decoration: none;
+  text-align: left;
+  font-size: 1rem;
+
+ }
+
+ a{
+    text-decoration: none;
+ }
+.navbar-custom {
+    background-color: #0f7be7;
+    background: linear-gradient(0deg, rgb(5, 133, 176) 0%, rgb(9, 159, 235) 82%, rgb(0, 166, 255) 100%);
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding: 15px 30px 15px 30px;
+    font-family: sans-serif;
+    font-size: 0.8rem; 
+    font-weight: 500;
+    text-shadow: black 1px;
+    
+  
+}
+.navbar{
+    position:-webkit-sticky;
+    position: sticky;
+    top:0px; 
+    z-index:9;
+}
+.navbar i{
+    padding-left: 3px;
+}
+.navbar-nav li{
+    list-style-type: none;
+    display: flex;
+    padding-left: 17px;
+   
+}
+.dropdown-item  li a{
+display: block;
+   
+}
+
+.collapse{
+    display: none;}
+
+.navbar{
+  margin-top: -40px;
+ 
+}
+.dropdown-menu {
+    margin-top:40px;
+    position: absolute;
+    /* display: flex; */
+    
+}   
+  .dropdown-submenu{
+  display: none;
+  }
+.dropdown-menu li:hover{
+transition:all 8s;
+}
+
+
+.navtext{
+    display: none;
+}
+
+
+.photo-slide{
+    display: flex;
+    height: 710px;
+    width: 100%;
+    /* position:relative; */
+    bottom: 0;
+}
+.slide{
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+    padding-top:5px;
+    height:700px;
+    width: 100%;
+    background-size:contain;
+}
+.admission_help{
+    height: 50px;
+    width: 30px;
+    color:white;
+    background-color: #00457e;
+    z-index: 4;
+    padding-right: 80%;
+    position: absolute;
+}
+.open_button{
+    height: 50px;
+    width: 30px;
+    position: inherit;
+
+}
+.nav-link{
+    color:white;
+    font-weight: 500;
+    font-size: 1rem;
+    text-decoration: none
+}
+
+
+
+
+
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: #ffffff;
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: rgba(255,255,255,.8);
+
+}
+
+/* for dropdown only - change the color of droopdown */
+.navbar-custom .dropdown-menu {
+    background: #0570a7;
+    background: linear-gradient(0deg, rgba(16,19,20,1) 0%, rgb(16, 139, 200) 82%, rgb(21, 140, 205) 100%);
+    background-color: #0570a7;
+}
+
+.navbar-custom .dropdown-item {
+    color: #ffffff;
+    width: 100%;
+ 
+}
+.navbar-custom .dropdown-item:hover,
+.navbar-custom .dropdown-item:focus {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.586);
+    background: #0a638f;
+    background: linear-gradient(0deg, rgba(16,19,20,.5) 15%, rgba(2,132,200,.5) 100%);
+    background-color: #0f76a9;
+    /* width:100%; */
+    
+   
+    
+}
+
+.navbar-custom .nav-item-icon {
+    color: #f1f5f9;
+    transition: color 0.3s;
+
+}
+
+.navbar-custom .nav-item-icon:hover {
+    color: #ffffff;
+    transition: color 0.3s;
+    
+    
+
+}
+
+.navbar-custom .dropdown-item-icon {
+    color: #f1f5f9;
+    transition: color ;
+    
+    /* padding-right:10px; */
+    
+}
+
+.navbar-custom .dropdown-item-icon:hover {
+    color: #ffffff;
+    transition: color 0.3s;
+}
+
+.animated {
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.9s;
+    transition:all 0.6s;
+   
+
+}
+
+.dropdown-submenu > .dropdown-menu {
+    top: -40px;
+    left: 100%;
+    
+   
+}
+
+/* rotate caret on hover */
+.dropdown-menu > li > a:hover:after {
+    text-decoration: underline;
+    transform: rotate(-90deg);
+   
+}
+
+
+.navbar-nav li > ul.dropdown-menu {
+    display: none;
+    
+}
+
+.navbar-nav li:hover > .dropdown-menu {
+    display: block;
+    
+}
+.zoom:hover {
+    transition: transform 1.2s;
+    transform: scale(1.5);
+     }
+    
+    .zoom:hover {
+    transform: scale(1.5);
+    }
+    /* ======main body=====*/
+
+    .main-section{
+        padding-top: 1px;
+        background-color:#041527;
+        position:relative;
+    }
+    .scrolling{
+        display: flex;
+        align-items: center;
+        color: white;
+        background-color: #00457e;
+        height: 35px;
+        font-weight: 500;
+        margin: 10px 0 10px;
+    }
+    .scrolling span{
+        position: relative;
+        color: white;
+        background-color:#e3b74e;
+        padding: 8px 20px;
+        clip-path: polygon(0 0, 85% 0%,100% 100% ,0 100%);
+    
+    }
+    .alumniscr{
+        background: linear-gradient(0deg, rgba(3, 97, 248, 0.5) 15%, rgba(7, 107, 238, 0.5) 100%);
+        
+    }
+    
+    .alumni{  
+       
+        padding: 0 20px 0 20px;
+        display: flex;
+        color:white;
+        font-weight: 700;
+        font-size: 1rem;
+        text-decoration: none;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    }
+    .alunmi p{
+        text-decoration: none;
+        padding:5px 0 5px 2px;
+    }
+
+
+    /* <===== container======> */
+    
+    .container span{
+        padding-right: 5px;
+    }
+ .fastrow{
+        display:flex;
+       
+    }
+    .welcome{
+        padding: 30px 40px;
+    }
+
+    .leftcon{
+        margin: 0px 0px 20px 200px;
+        width: 65%;
+        background-color: white;
+        color: #021223;
+        height: 330px;
+        box-sizing: border-box;
+        border-radius: 5px;
+        font-family: 'Roboto', sans-serif;
+        box-shadow: 0px 2px 5px 0px rgba(35, 35, 35, 0.15);
+    }
+    .leftcon p{
+        font-size: 1.1rem;
+        font-weight: 300;
+        padding: 15px 0 10px 5px;
+        font-family: 'Roboto', sans-serif;
+
+    }
+   
+    .custom-btn{
+        padding: 10px 20px;
+        background-color: #E3b74e;
+        border-radius: 25px;
+        font-size: 16px;
+        line-height: 22px;
+        color:white;
+        font-weight: 700;
+        /* --moz-transition: all .5s ease-in-out;
+        --webkit-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out; */
+        }
+
+    .scroolingtxt h3{
+        position:relative;
+        top:0px;
+    }
+    .scroolingtxt marquee{
+        position: relative;
+        height: 270px;
+    }
+    
+
+
+
+    .rightcon{
+        margin: 0px 200px 10px 30px;
+        width: 35%;
+        background-color: white;
+        color: #021223;
+        height: 330px;
+        box-sizing: border-box;
+        border-radius: 5px;
+        font-family: 'Roboto', sans-serif;
+        box-shadow: 0px 2px 5px 0px rgba(35, 35, 35, 0.15);
+    }
+    .scroolingtxt li{
+        display: flex;
+        margin: 10px 5px 15px 5px;
+        font-size: 1.5rem;
+        color: #007Bff;
+    }
+    .scroolingtxt span{
+        padding-right: 5px;
+        font-size: 1rem;
+        color: #DC4536;
+    }
+    
+
+    .heading{
+        position: relative;
+        top:0;
+       color: white;
+        padding: 10px 20px;
+        font-size: 1.2rem;
+        text-align: center;
+        font-weight: 700;
+        background-color: #E3b74e;
+        border-bottom: 3px solid #bc9538;
+        border-radius: 5px;
+    }
+    .admission p{
+        padding: 10px 0 10px 20px;
+        font-weight: 700;
+        font-size: 1rem;
+    
+    }
+    .admission li{
+    list-style-type:none;
+     padding: 5px 5px 4px 55px;
+     font-size: 1.1rem;
+    }
+    .admission a{
+        justify-content: center;
+        padding: 10px;
+        color: #DC4536;
+        font-size: 1rem;
+        font-weight: 600;
+        margin-left: 20px;
+       }
+       .admission h3{
+       font-size: 1.7rem;
+        font-weight: 700;
+        padding: 10px 0 5px 20px;
+    }
+    
+       .admission i{
+      padding: 5px;
+      color: #0f7be7;
+       }
+    .scndrow{
+        display: flex;
+        margin-top: 10px;
+
+    }
+ .scroolingtxt li :hover {
+    text-decoration: underline;
+    color:#1100ff;
+    font-weight: 730;
+}
+.thirdrow{
+    display: flex;
+   
+}
+.resources li{
+    display: flex;
+    list-style-type: none;
+    padding: 5px 0 3px 40px;
+}
+.resources a{
+    color: #041527;
+    font-size: 1.1rem;
+   padding: 0px 5px 5px 5px;
+   
+}
+.resources h1{
+ margin: 15px 0 15px 40px;
+ color: #bc9538;
+
+}
+.resources span{
+    color:#007Bff;
+   font-size: 1rem;
+   padding: 0 3px 0 40px;
+   
+   }
+   /* <===cultural club===> */
+   .club{
+    /* background: url(background.jpg); */
+    width: 100%;
+    margin-top: 50px;
+    
+   }
+   .club span{
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 800;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   .cul-img{
+    display: flex;
+   
+   }
+   .cul-img img{
+    padding: 10px 20px 20px 30px;
+   }
+   .cul-img marquee{
+    margin: 0 60px 0 60px;
+   }
+
+
+    /* <=====portal====> */
+
+
+    .Portal{ 
+        margin-top: 15px;
+        width: 100%;
+        background-color:#e4c67f ;
+    }
+.sce{
+     width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 220px; 
+    
+    }
+    
+.scholarships{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 13%;
+    padding: 50px 7px 50px 0px;
+
+}
+.scholarships span{
+  padding-top: 5px;
+   align-items: center;
+
+}
+
+/* <====footer===>
+<====companies===> */
+ .foot{
+    margin-top: 25px;
+  
+ }
+.companies{
+    padding: 30px;
+    display: flex;
+}
+.com{
+    font-weight: 700;
+    font-size: 1.3rem;
+    width: 20%;
+    color: #ffffff;
+  
+}
+.companies img{
+    padding-right: 50px;
+    height: 100px;
+    width: 100px;
+    background-color: #ffffff;
+}
+
+/* <<==main-footer==>> */
+.main-footer{
+    margin-top: 30px;
+    background-color: #083C6D;
+}
+.ft{
+    display: flex;
+    padding-top: 50px;
+   
+   
+
+     
+}
+.footer-logo{
+    width: 20%;
+    display: flex;
+    justify-content: right;
+    padding-right: 30px;
+}
+.location{
+    width: 50%;
+    align-items: center;
+    color: #ffffff;
+
+}
+.location h3{
+    padding: 6px;
+    font-weight: 600;
+}
+.location hr{
+    width: 100px;
+
+}
+
+.map{
+    width: 30%;
+}
