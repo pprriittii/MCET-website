@@ -1,44 +1,124 @@
-@media  screen and (max-width:1353px) {
-    .mcetlogo{
-        left:0;
+@media  screen and (max-width:1553px) {
+    .carousel{
+       
+       left:150px;
     }
 
-    /* .cdesc-container {
-        flex-direction: column;
-    }
-     .nav{
-        flex-direction: column;
-        height: 400px;
-       transition: all 0.7s ease-out;
-        
-    }  */
 }
-@media  screen and (max-width:1100px) {
+
+
+
+@media  screen and (max-width:1453px) {
+    .leftcon {
+        height: 360px;
+
+    }
+    .rightcon{
+        height: 360px;
+    }
+    .carousel{
+        width:1000px;
+       left:210px;
+    }
+    .wrapper .carousel{
+        gap:16px;
+        grid-auto-columns: calc((100% / 3) - 12px);
+        
+    }
+    /* .card{
+        /* height:150px;
+        width:315px; */
+        
+
+    } */
+}
+@media  screen and (max-width:1253px) {
+    .carousel{
+       
+       left:150px;
+    }
+
+}
+
+@media  screen and (max-width:1360px) {
+    .clogo{
+        left:40px;
+    }
+
+     .cdesc-container {
+        height:190px ;
+    }
+    .responsive{
+        flex-direction: column;
+        align-items: center;
+        
+      }
+      .rightcon{
+        /* margin-left:200px; */
+        width: 800px;
+        height: 330px;
+        margin-left:110px;
+      }
+      .leftcon{
+        height: 330px;
+      }
+      .res{
+        width:800px ;
+        height: 330px;
+        margin-left: 78px;
+      }
+      .middlecon{
+        /* margin-left:200px; */
+
+      }
+      .disclaimer{
+        width: 800px;
+        margin-right: 58px;
+      }
+      .carousel{
+        left:190px;
+     }
+    }
+
+@media  screen and (max-width:1210px) {
  .cdesc-container{
     height:220px ;
  }
+ .clogo{
+     left: 25px; 
+ }
+ .logo{
+    right:100px
+ }
+ .carousel{
+       
+    left:100px;
+ }
+
 
 }
 
-@media  screen and (max-width:940px) {
+@media  screen and (max-width:1140px) {
     .cdesc-container{
      height: 420px;
      flex-direction: column;
      justify-content: center;
      align-items: center;
+     margin: 5px;
+     border: 2px solid #fff;
+     border-radius: 10px;
        
     
     }
-    .mcetlogo{
-        /* padding-left: 25px; */
-        width: 100%;
+    .clogo{
+     top:-7px;
+        
         
     }
-    .cdesc h1 {
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-        padding: 45px 0px 0px 0px;
+    .clgname {
+        width:100%;
+       margin: 15px 90px 10px 90px; 
+        text-align: center;
     }
     .logoo{
         width: 100%;
@@ -46,5 +126,217 @@
         justify-content: center;
         align-items: center;
         padding-top: 20px;
+        margin-left: 60px;
     }
+    .navbar-nav{
+        padding-right:40px;
+    }
+    .slide{
+        height: 450px;
+    }
+    .photo-slide{
+        height: 450px
+    }
+    .carousel{
+       
+        left:60px;
+     }
+     .sce{
+      left:160px;
+
+     }
    }
+
+   @media  screen and (max-width:1100px) {
+    .welcome{
+        height: 410px;
+    }
+    .sce{
+      left:100px;
+
+     }
+   }
+   @media  screen and (max-width:1040px) {
+
+    .carousel{
+        left:200px;
+        width:750px;
+     }
+     .card{
+        /* height: 100px;
+        width: 150px; */
+        /* padding-left: 68px; */
+     }
+     .wrapper .carousel{
+        gap:62px;
+        grid-auto-columns: calc((90% / 2) - 8px);
+     }
+     .sce{
+      left:100px;
+
+     }
+   }
+   @media  screen and (max-width:980px) {
+   .carousel{
+    left:120px;
+    width:700px;
+ }
+
+ .sec{
+  width: 50%;
+  left: 50px;
+ }
+ .com{
+  font-size: 0.9rem;
+  width: 22%;
+ }
+
+}
+   @media  screen and (max-width:940px) {
+    .res{
+     width: 90%;
+     margin: 10px 0 20px 35px; 
+
+    }
+    .rightcon{
+        width: 90%;
+        margin: 10px 0 0 74px;
+
+    }
+    .disclaimer{
+        width: 90%;
+        margin: 10px 102px 0 0;
+    }
+    .leftcon{
+        width: 90%;
+        margin: 10px;
+    }
+   
+
+   }
+   @media  screen and (max-width:890px) {
+   .carousel{
+    left:70px;
+    width:700px;
+ }
+ /* .card{
+    height: 90px;
+    width:120px
+ } */
+ .navbar-nav{
+  display: none;
+ }
+ .navbar{
+  height:35px;
+ }
+ .collapse{
+  display: block;
+  
+ }
+}
+@media  screen and (max-width:790px) {
+    .carousel{
+     left:50px;
+     width:700px;
+  }
+  .card {
+    height: 90%;
+    width:90%;
+   
+  }
+  .cdesc-container {
+  height:520px ;
+  }
+  .scholarships{
+    width: 7%;
+    font-size: 0.4rem;
+    padding: 50px 7px 50px 0px;
+  }
+ .footer-logo{
+  display: none;
+ }
+ .location{
+  padding-left: 100px;
+ }
+ .map{
+  width: 50%;
+ }
+
+
+ }
+ @media  screen and (max-width:750px) {
+    .carousel{
+     left:120px;
+     width:500px;
+  }
+  .wrapper .carousel{
+    gap:40px;
+  }
+  .welcome{
+    height: 460px;
+  }
+ }
+
+ @media  screen and (max-width:690px) {
+     .carousel{
+     left:40px;
+     width:500px;
+  }
+  .wrapper .carousel{
+    gap:40px;
+  } 
+  .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+ }
+ @media  screen and (max-width:490px) {
+    .carousel{
+    left:20px;
+    width:400px;
+ }
+ .wrapper .carousel{
+   gap:30px;
+ } 
+ .scholarships{
+  width: 4%;
+  font-size: 0.4rem;
+  padding: 50px 10px 50px 15px;
+}
+.sce{
+
+left: 40px;
+}
+.companies{
+  padding-right: 35px;
+}
+.com{
+font-size: 0.6rem;
+}
+.companies img{
+  height:28px;
+  width: 50px;
+}
+.location{
+  padding-left: 60px;
+  font-size:1rem ;
+ }
+ .welcome{
+  height: 460px;
+  padding: 5px;
+}
+.panel{
+  flex-direction: column;
+  padding-left: 2px;
+}}
+ @media  screen and (max-width:390px) {
+ .welcome{
+  height: 600px;
+  padding: 5px;
+}
+.cdesc-container{
+  height:550px ;
+}
+
+ }

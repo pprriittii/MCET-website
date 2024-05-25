@@ -45,12 +45,13 @@ html{
     height: 150px;
    
 }
-.clogo { 
+.clogo{ 
     width: 20%;
-    padding-left: 100px; 
-    margin:30px 0 0 50px; 
-    position: relative;
-   z-index:99;
+    /* padding-left: 100px;  */
+    margin:30px 0 0 0px; 
+    position:relative;
+    left: 100px;
+    z-index:99;
    
    
  }
@@ -85,9 +86,18 @@ html{
     font-weight: 400;
     margin-bottom: 3px;
     display: inline;
-    color: white;
+    color: rgb(236, 228, 228);
   
 } 
+.cdesc h2 {
+    font-family: Roboto;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 3px;
+    display: inline;
+    color: white;
+  
+}
 
 /* <<==burgar==> */
 .collapse{
@@ -97,9 +107,17 @@ html{
 position: absolute;
   left: 5%;
   top:15px;
-
+}
+/* .collapse p{
+    color: #fff;
+    font-size: 1.3rem;
+    padding: 15px 10px 0 20px;
 
 }
+.smalllogo{
+    height: 50px;
+    width: 30px;
+} */
 .line{
   width: 30px;
   height: 4px;
@@ -202,7 +220,7 @@ transition:all 8s;
     height: 710px;
     width: 100%;
     /* position:relative; */
-    bottom: 0;
+    
 }
 .slide{
     align-items: center;
@@ -408,7 +426,7 @@ transition:all 8s;
         padding: 30px 40px;
     }
     .video iframe {
-        height: 300px;
+        height: 290px;
         width: 100%;
         }
     .video h3{
@@ -416,8 +434,10 @@ transition:all 8s;
     }
     
     .leftcon{
-        margin: 0px 0px 20px 200px;
-        width: 65%;
+        margin-left: 30px;
+        width: 800px;
+        position: relative;
+        right: 0px;
         background-color: white;
         color: #021223;
         height: 330px;
@@ -442,6 +462,9 @@ transition:all 8s;
         line-height: 22px;
         color:white;
         font-weight: 700;
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
         /* --moz-transition: all .5s ease-in-out;
         --webkit-transition: all .5s ease-in-out;
         transition: all .5s ease-in-out; */
@@ -457,11 +480,15 @@ transition:all 8s;
     }
     
 
-
+.responsive{
+    justify-content: space-evenly;
+}
 
     .rightcon{
-        margin: 0px 200px 10px 30px;
-        width: 35%;
+         margin: 15px 0px 10px 0px; 
+        width: 450px;
+        position: relative;
+        right: 40px;
         background-color: white;
         color: #021223;
         height: 330px;
@@ -564,10 +591,12 @@ transition:all 8s;
     display:flex;
    }
 .disclaimer{
-    margin: 0px 0px 20px 200px;
-    width: 31%;
+   position: relative;
+   left: 45px;
+    width: 370px;
+    margin-top: 10px;
     background-color: white;
-    
+    padding: 25px;
     height: 330px;
     box-sizing: border-box;
     border-radius: 5px;
@@ -575,12 +604,14 @@ transition:all 8s;
     box-shadow: 0px 2px 5px 0px rgba(35, 35, 35, 0.15)
 }
 .disclaimer p{
-   padding-top: 15px;
+   padding-top:15px;
    font-size: 1rem;
 }
 .middlecon{
-    margin: 0px 0px 20px 20px;
-    width: 31%;
+    position: relative;
+    right: 25px;
+    margin-top: 10px;
+    width: 410px;
     background-color: white;
     color: #021223;
     height: 330px;
@@ -594,6 +625,9 @@ transition:all 8s;
     height: 300px;
     width: 100%;
 }
+.training{
+  margin:25px 15px;
+}
    /* <===cultural club===> */
 
    .carousel{
@@ -602,9 +636,14 @@ transition:all 8s;
     width: 100%;
     position: relative;
     color: white;
-    margin-left:  200px;
-    padding: 35px 0 30px;
+    left:200px;
+    /* margin-left:  200px; */
+    padding: 35px 0 30px 0;
 
+ }
+ .card img{
+    height: 100%;
+    width: 100%;
  }
    .wrapper{
     margin: 30px 0 0px 0;
@@ -721,7 +760,8 @@ transition:all 8s;
     justify-content: center;
     align-items: center;
     justify-content: space-evenly;
-    padding-left: 220px; 
+    position: relative;
+    left: 220px; 
     
     }
     
@@ -732,6 +772,7 @@ transition:all 8s;
     justify-content: center;
     text-align: center;
     width: 13%;
+    font-size: 1rem;
     padding: 50px 7px 50px 0px;
 
 }
