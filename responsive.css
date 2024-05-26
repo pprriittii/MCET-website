@@ -224,15 +224,39 @@
     width:120px
  } */
  .navbar-nav{
-  display: none;
+  flex-direction: column;
+  
+align-items: center;
+padding-left: 10px;
+  
  }
  .navbar{
-  height:35px;
+  flex-direction: column;
+  height: 410px;
+  transition: all 0.7s ease-out;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 700; 
+  
  }
+ 
+ .dropdown-submenu > .dropdown-menu {
+  top: -40px;
+  
+}
+
  .collapse{
   display: block;
   
  }
+ .op-res{
+  opacity: 0;
+
+}
+.h-nav-res{
+   height: 51px;
+}
 }
 @media  screen and (max-width:790px) {
     .carousel{
